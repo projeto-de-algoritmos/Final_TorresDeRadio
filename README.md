@@ -1,21 +1,7 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
-
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
+# Tores de Radio
 
 **Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: Grafos/Algoritmos ambiciosos<br>
 
 ## Alunos
 |Matrícula | Aluno |
@@ -24,7 +10,7 @@ Temas:
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O obejtivo do projeto é analisar qual a quantidade mínima de frequencias devem ser emitidas por . 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
