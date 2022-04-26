@@ -1,0 +1,54 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Signal Emitters{% endblock %}
+
+{% block content %}
+
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */
+.button5 {background-color: #555555;} /* Black */
+</style>
+
+<div class="jumbotron text-center">
+
+    <div class="container">
+
+        <h1 class="display-4">Add Graph</h1>
+        <p class="lead">Add the graph representing the signal emitters</p>
+        <hr class="my-4">
+
+        <form method=post enctype=multipart/form-data>
+
+              <div class="row">
+
+                <div class="col align-self-center">
+
+                    <input type=file name=file>
+                    <input type=submit value=Upload  class="btn btn-primary">
+
+                </div>
+
+              </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+{% endblock %}
